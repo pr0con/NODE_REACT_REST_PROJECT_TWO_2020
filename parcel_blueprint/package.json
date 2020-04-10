@@ -1,0 +1,35 @@
+{
+  "name": "parcel_blueprint",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html --host junk.pr0con.io --https --cert /etc/letsencrypt/live/junk.pr0con.io/cert.pem --key /etc/letsencrypt/live/junk.pr0con.io/privkey.pem --hmr-hostname junk.pr0con.io --hmr-port 5000 --no-autoinstall --no-source-maps",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "draft-js": "^0.11.5",
+    "filepond": "^4.13.0",
+    "filepond-plugin-image-exif-orientation": "^1.0.6",
+    "filepond-plugin-image-preview": "^4.6.1",
+    "hookrouter": "^1.2.3",
+    "parcel-bundler": "^1.12.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-draft-wysiwyg": "^1.14.4",
+    "react-filepond": "^7.0.1",
+    "react-is": "^16.13.1",
+    "react-json-view": "^1.19.1",
+    "styled-components": "^5.0.1",
+    "uniqid": "^5.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/plugin-transform-runtime": "^7.9.0"
+  }
+}
